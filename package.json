@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/antontymchenko/goit-js-hw-11-promisification"
   },
-  "homepage": "https://github.com/antontymchenko/goit-js-hw-11-promisification",
+  "homepage": "https://antontymchenko.github.io/goit-js-hw-11-promisification/",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-nuke-dist": "^1.0.1"
