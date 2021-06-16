@@ -1,29 +1,28 @@
 {
   "name": "goit-js-hw-11-promisification",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://antontymchenko.github.io/goit-js-hw-11-promisification/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AntonTymchenko/goit-js-hw-11-promisification.git"
   },
   "keywords": [],
-  "author": "Anton Tymchenko <timchenkov_@ukr.net>",
+  "author": "Anton Tymchenko <timchenkov_@net.ukr>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antontymchenko/goit-js-hw-11-promisification"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "homepage": "https://antontymchenko.github.io/goit-js-hw-11-promisification/",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-nuke-dist": "^1.0.1"
-  },
-  "dependencies": {
-    "bootstrap.native": "^3.0.13",
-    "lodash.throttle": "^4.1.1"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
   }
 }
