@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-11-promisification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonTymchenko/goit-js-hw-11-promisification.git"
+  },
+  "keywords": [],
+  "author": "Anton Tymchenko <timchenkov_@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antontymchenko/goit-js-hw-11-promisification"
+  },
+  "homepage": "https://github.com/antontymchenko/goit-js-hw-11-promisification",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap.native": "^3.0.13",
+    "lodash.throttle": "^4.1.1"
+  }
+}
